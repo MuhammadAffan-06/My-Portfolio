@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-header {
+    height: 75px;
+    color: white;
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.hero-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.about {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.main-footer {
+    margin-top: 64px;
+    text-align: center;
+
+
+}
+
+.main-footer a {
+    margin-right: 30px;
+
+}
+
+.main-footer a:last-child {
+    margin-right: 0;
+
+}
+
+.fa-linkedin-in {
+    color: lightblue;
+    font-size: 45px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 45px;
+
+}
+
+.fa-github {
+    font-size: 45px;
+}
+
+.last-section {
+    border: 2px solid yellow;
+    width: 260px;
+    height: 160px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    border-radius: 15%;
+    margin-top: 90px;
+}
+.last-section:hover
+{
+    border: 2px solid darkgrey;
+    width: 260px;
+    height: 160px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0 auto;
+    border-radius: 15%;
+    margin-top: 90px;
+}
